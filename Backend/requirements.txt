@@ -1,0 +1,21 @@
+# Core AI/ML Stack
+torch
+torchvision
+ultralytics
+opencv-python
+scikit-learn
+pandas
+numpy
+
+# RAG & LLMs Stack
+langchain
+chromadb
+openai
+groq
+
+# Web & API Frameworks
+streamlit
+flask
+requests
+python-dotenv
+sqlite3
