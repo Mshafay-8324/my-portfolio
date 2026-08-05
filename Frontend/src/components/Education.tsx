@@ -24,7 +24,7 @@ export default function Education() {
           </div>
           <div className="text-xs text-slate-300 space-y-1">
             <div className="font-semibold text-slate-200">University of Hertfordshire</div>
-            <div className="text-slate-400 font-medium">Jan 2025 - May 2026</div>
+            <div className="text-slate-400 font-medium">Jan 2023 - May 2026</div>
             <div className="flex justify-between text-slate-500 text-[11px] font-mono mt-1.5">
               <span>GPA: 3.9/4.5</span>
             </div>
