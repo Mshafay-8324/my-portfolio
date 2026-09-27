@@ -47,7 +47,6 @@ const projects: Project[] = [
     title: "AI Email Assistant Agent",
     description: "Built an AI-powered email assistant that automatically classifies incoming emails, generates concise summaries, and drafts professional replies using intelligent automation workflows.",
     tags: ["n8n", "Ollama", "Llama 3.2", "AI Agents", "Workflow Automation"],
-    inProgress: true,
     gradient: "from-teal-600/20 via-cyan-600/10 to-transparent",
   },
   {
