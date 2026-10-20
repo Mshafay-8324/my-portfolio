@@ -7,11 +7,21 @@ interface TimelineItem {
   company: string;
   role: string;
   period: string;
-  location: string;
+  location?: string;
   description: string[];
 }
 
 const experiences: TimelineItem[] = [
+  {
+    company: "Novoatmos",
+    role: "React Native Developer",
+    period: "Aug 2026 – Sep 2026",
+    description: [
+      "Developing EzyCar, a cross-platform automotive services mobile application using React Native, Expo, and TypeScript.",
+      "Implementing customer and service provider onboarding, vehicle management, garage discovery, inspection selection, service booking interfaces, and supplier registration flows.",
+      "Building responsive UI components, interactive navigation, and polished mobile experiences.",
+    ],
+  },
   {
     company: "DevelopersHub Corporation",
     role: "AI/ML Engineering Intern",
@@ -115,10 +125,12 @@ export default function Experience() {
                           <Calendar size={12} />
                           {exp.period}
                         </span>
-                        <span className="flex items-center gap-1">
-                          <MapPin size={12} />
-                          {exp.location}
-                        </span>
+                        {exp.location && (
+                          <span className="flex items-center gap-1">
+                            <MapPin size={12} />
+                            {exp.location}
+                          </span>
+                        )}
                       </div>
                     </div>
 
