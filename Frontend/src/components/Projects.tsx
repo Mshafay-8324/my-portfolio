@@ -50,6 +50,13 @@ const projects: Project[] = [
     gradient: "from-teal-600/20 via-cyan-600/10 to-transparent",
   },
   {
+    title: "AI Lead Management Agent: Local LLM Lead Qualification with n8n and Ollama",
+    description: "An n8n workflow that uses a locally hosted Llama 3.2 model (via Ollama) to qualify incoming leads, prioritize them, and draft follow-up emails for human review.",
+    tags: ["n8n", "Ollama", "Llama 3.2", "JavaScript", "JSON", "REST API", "Google Sheets"],
+    inProgress: true,
+    gradient: "from-violet-600/20 via-fuchsia-600/10 to-transparent",
+  },
+  {
     title: "Kotal Restaurant Website",
     description: "Developed and deployed a responsive restaurant website featuring menus, services, and an optimized user experience.",
     tags: ["React", "Next.js", "Tailwind CSS", "Web Dev"],
