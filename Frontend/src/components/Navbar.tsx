@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { Menu, X, ArrowUpRight } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navItems = [
@@ -96,15 +96,6 @@ export default function Navbar() {
             ))}
           </nav>
 
-          {/* Download Resume */}
-          <a
-            href="/resume.pdf"
-            download="Muhammad Shafay.pdf"
-            className="inline-flex items-center gap-1.5 px-4 py-2 text-xs font-semibold text-white bg-blue-600 rounded-lg hover:bg-blue-500 transition-all duration-300 shadow-md shadow-blue-500/15 hover:shadow-blue-500/30"
-          >
-            Download Resume <ArrowUpRight size={14} />
-          </a>
-
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
             <button
@@ -141,15 +132,6 @@ export default function Navbar() {
                   {item.label}
                 </button>
               ))}
-              <div className="pt-2 px-4">
-                <a
-                  href="/resume.pdf"
-                  download
-                  className="flex items-center justify-center gap-1.5 w-full py-3 text-center text-sm font-semibold text-white bg-blue-600 rounded-lg hover:bg-blue-500 transition-colors shadow-md shadow-blue-500/10"
-                >
-                  Download Resume <ArrowUpRight size={14} />
-                </a>
-              </div>
             </div>
           </motion.div>
         )}
